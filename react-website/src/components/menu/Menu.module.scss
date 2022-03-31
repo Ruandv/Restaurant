@@ -1,0 +1,51 @@
+.container {
+  background-color: red;
+  max-width: 786px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-bottom: 60px;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.card {
+  box-sizing: border-box;
+  background-color: peachpuff;
+  padding: 10px;
+  margin:5px; 
+  width: 100%;
+  div {
+    padding-bottom: 5px;
+  }
+  .heading {
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    .checkbox {
+      margin: auto;
+      margin-right: 0;
+    }
+  }
+  .description {
+  }
+  .price {
+    font-weight: bolder;
+    padding-bottom: 0px;
+  }
+}
+
+.hide {
+  display: none;
+}
+.footer {
+  background-color: blueviolet;
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  height: 30px;
+  padding: 10px;
+  width: 100%;
+}
